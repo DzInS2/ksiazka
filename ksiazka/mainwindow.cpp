@@ -18,12 +18,12 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
+/*
 void MainWindow::on_pushButton_pressed()
 {
    class przepis przepiss;
    przepiss.setModal(true);
-   przepiss.exec();
+   przepiss.show();
 
 }
 
@@ -32,7 +32,7 @@ void MainWindow::on_pushButton_2_pressed()
 {
     class przelicznik numer;
     numer.setModal(true);
-    numer.exec();
+    numer.schow();
 }
 
 
@@ -40,6 +40,7 @@ void MainWindow::on_pushButton_3_pressed()
 {
     class zrodlo zrr;
     zrr.setModal(true);
-    zrr.exec();
+    zrr.show();
 }
 
+*/
